@@ -89,7 +89,7 @@ ALTER TABLE tbl_department ADD manager_id INT
 	FOREIGN KEY (department_id) REFERENCES tbl_department(id),
 	FOREIGN KEY (employee_id) REFERENCES tbl_employee(id)
 
- );
+Â );
 
 
 
